@@ -1,8 +1,8 @@
 # Docker Meetup & Bowery.io 
 
-This will be the foundation for me sharing [Bowery.io] at the [Cincinnati Docker] Meetup. 
+This will be the foundation for me sharing [Bowery] at the [Cincinnati Docker] Meetup. 
 
-"Some background: [Bowery.io] is a service for keeping your development environment in sync. It’s a terminal that sits right alongside your text-editor and browser, but unlike your normal terminal, it connects you to an exact replica of your production environment, shared with your team. This makes it easy to get up and running on a project and avoid bugs that comes from discrepancies between your development and production environments." 
+"Some background: [Bowery] is a service for keeping your development environment in sync. It’s a terminal that sits right alongside your text-editor and browser, but unlike your normal terminal, it connects you to an exact replica of your production environment, shared with your team. This makes it easy to get up and running on a project and avoid bugs that comes from discrepancies between your development and production environments." 
 
 
 ### Version
@@ -14,11 +14,11 @@ This project uses uses a number of open source projects to work properly:
 
 * [Docker]
 * [Ubuntu]
-* [Bowery.io]
+* [Bowery]
 * [Go]
 * [Postgres]
 
-This project is under the assumption (vantage point) that you have already created your development environment with Bowery. Otherwise, you would create your own environment by installing the necessary dependencies to compile and run your code. I used [ln] to link my code directory to my $GOPATH. Wavey ...
+This project is under the assumption (vantage point) that you have already created your development environment with [Bowery]. Otherwise, you would create your own environment by installing the necessary dependencies to compile and run your code. I used [ln] to link my code directory to my $GOPATH. Wavey ...
 
 So there are two ways to use Bowery. 
 
@@ -27,7 +27,7 @@ So there are two ways to use Bowery.
 
 ### Bowery Hosted
 * install sofware dependencies 
-* make code changes using vim or favor IDE (if you are into those things) http://104.XXX.XX.XXX:8732
+* make code changes using vim or favor IDE (if you are into those things) 
 * see updates by Select File > Open in Browser (hosted on Google Cloud) 
 
 ###Cloud Deployment
@@ -76,14 +76,14 @@ docker rmi $(docker images -q)
 ```
 
 ### Notes
-[Tweet] me and I might store my container in Docker Hub or on my personal server. If you have any questions because ther README wasn't clear open a issue labeled "help wanted" or [tweet] me. I be in these internet streets. 
+[Tweet] me and I might store my container in Docker Hub or on my personal server. If you have any questions because the README wasn't clear, please open a issue labeled "help wanted". I be in these internet streets. 
 
 ### Packages
 The following packages are used:
 * [Mux]
 
 ### Development
-Want to contribute? Wavey ... pull requests weclomed 
+Want to contribute? Wavey ... pull requests welcomed
 
 ### Todo's
 
@@ -102,7 +102,8 @@ MIT
 [Ubuntu]:http://www.ubuntu.com/
 [Docker]:https://www.docker.com/
 [mux]:http://www.gorillatoolkit.org/pkg/mux
-[Bowery.io]:http://bowery.io/
+[Bowery]:http://bowery.io/
 [Cincinnati Docker]:http://www.meetup.com/Docker-Cincinnati/
 [Jaren Glover]:www.jarenglover.com
 [@JarenGlover]:http://twitter.com/JarenGlover
+[ln]:http://en.wikipedia.org/wiki/Ln_(Unix) 
