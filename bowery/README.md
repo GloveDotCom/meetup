@@ -28,7 +28,7 @@ So there are two ways to use Bowery.
 ### Bowery Hosted
 * install sofware dependencies 
 * make code changes using vim or favor IDE (if you are into those things) 
-* see updates by Select File > Open in Browser (hosted on Google Cloud) 
+* see updates by Select File > Open in Browser (note the app is  binded to port 8732) 
 
 ###Cloud Deployment
 * [install docker] - lastest version 
